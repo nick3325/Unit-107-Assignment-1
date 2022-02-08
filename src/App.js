@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <NavBar></NavBar>
       <About />
-      <h1>Welcome to my Super Online Store</h1>
+      <h1>Nick Fitness Supplements</h1>
       <Catalog />
       <ToDo></ToDo>
       <Foot></Foot>

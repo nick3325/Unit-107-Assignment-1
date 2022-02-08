@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import Product from './product';
 import DataService from './dataService';
 
+
 const Catalog = () => {
     const [products, setProducts] = useState([]);
 
@@ -23,7 +24,7 @@ const Catalog = () => {
    
   return(
       <div className="catalog">
-          <h3>Our Amazing Catalog</h3>
+          <h3>Our Amazing Fitness Supplement Catalog</h3>
           <h5>There are {products.length} products</h5>
             {console.log("compontent rendered")}
             {products.map((p) => (

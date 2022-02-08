@@ -4,7 +4,7 @@ import "./product.css"
 import { useState } from 'react';
 
 const Product = (props) =>{
-    let[quantity, setQuantity] = useState(1);
+    let [quantity, setQuantity] = useState(1);
     
     const onQuantityChange = (value) =>{
         console.log("qnty changed", value);

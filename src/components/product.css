@@ -15,3 +15,25 @@
 }
 
 
+.product h5{
+    color: aliceblue;
+}
+
+.product .price-info label{
+    color: white;
+    padding: 5px;
+    
+}
+
+
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1580261450046-d0a30080dc9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=818&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 25vh;
+}
+.about-page h1{
+    color: white;
+}
+

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./quantityPicker.css"
+import "./about.css"
 const About = () =>{
     let[name, setName] = useState("");
     const[visible,setVisible] = useState(false)
@@ -14,9 +15,9 @@ const getMyInfo = () => {
                     <h6>nicklucien@gmail.com</h6>
                     <ul>
                         
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>Loves to Bench</li>
+                        <li>Loves to Squat</li>
+                        <li>Loves to Deadlift</li>
                     </ul>
                 </div>
         )

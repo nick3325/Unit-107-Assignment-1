@@ -1,3 +1,4 @@
+import "./footer"
 const Foot = () =>{
     return ( 
         <div className="footer">
