@@ -8,3 +8,5 @@ const Foot = () =>{
 }
 
 export default Foot;
+
+//for commit
