@@ -1,4 +1,5 @@
 import Catalog from "./catalog";
+import axios from "axios"
 var catalog = [
   {
     _id: "1234323",
@@ -52,12 +53,14 @@ var catalog = [
 ];
 
 class DataService {
-  getCatalog() {
+  async getCatalog() {
     //create http request
     //to retrieve data from the server
-
+    //let response = await axios.get("http://127.0.0.1:5000/api/catalog")
     //return mock data
-
+    //console.log("test", response.data);
+    //return response.data;
+    //return mock data
     return catalog;
   }
   registerProduct() {}

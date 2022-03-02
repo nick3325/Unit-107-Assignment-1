@@ -1,23 +1,24 @@
 import { useEffect, useState } from 'react';
 import Product from './product';
 import DataService from './dataService';
+import ToDo from './todo';
 
 
 const Catalog = () => {
     const [products, setProducts] = useState([]);
 
-    const loadData = () => {
+    const loadData = async () => {
         console.log('component loaded')
 
         let service = new DataService();
-        let data = service.getCatalog();
+        let data = await service.getCatalog();
         setProducts(data);
     }
 
     //when the component loads
     useEffect(() => {
         loadData();
-    });
+    }, []);
 
     //Create an state variable (products)
     //set data (from loadData) to the state variable
@@ -30,6 +31,7 @@ const Catalog = () => {
             {products.map((p) => (
             <Product key={p._id} data = {p} />
             ))}
+            <ToDo></ToDo>
       </div>
   );
 };
